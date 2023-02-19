@@ -37,3 +37,8 @@ guard let httpResponse = response as? HTTPURLResponse,
 }
 </code></pre>
 <p>Finally, this section of code uses <code>JSONDecoder</code> to decode the JSON response from the API into the specified type T. If it succeeds, it returns the decoded object. If it fails, it throws an error.</p>
+<p>The following are the sources that helped me create the API manager:</p>
+<ul>
+  <li>Official Apple documentation on URLSession usage: <a href="https://developer.apple.com/documentation/foundation/urlsession">https://developer.apple.com/documentation/foundation/urlsession</a></li>
+  <li>Official Apple documentation on Generics usage in Swift: <a href="https://docs.swift.org/swift-book/LanguageGuide/Generics.html">https://docs.swift.org/swift-book/LanguageGuide/Generics.html</a></li>
+</ul>
